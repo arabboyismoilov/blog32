@@ -125,8 +125,8 @@ STATIC_ROOT = BASE_DIR / 'static'
 MEDIA_ROOT = BASE_DIR / 'media' # /var/www/project_name/mediafiles
 
 if not DEBUG:
-    STATIC_ROOT = "/var/www/blog/mediafiles"
-    MEDIA_ROOT = "/var/www/blog/mediafiles"
+    STATIC_ROOT = "/var/www/blog32/mediafiles"
+    MEDIA_ROOT = "/var/www/blog32/mediafiles"
 
 
 AUTH_USER_MODEL = 'core.CustomUser'
